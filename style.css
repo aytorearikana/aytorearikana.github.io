@@ -25,25 +25,40 @@ h2 {
 
 }
 
-a {
-  color: #070e48; 
-  font-style: italic;
-  font-weight: 700;
-  text-decoration: underline;
-  border-style: outset;
-  border-width: thick;
-  border-spacing: 5px;
-  border-color: hwb(0 63% 36% / 0.929);
-  padding: 5px;  
-  border-radius: 10px;
-
+.links{
+  text-align: center;
 }
+.links a i {
+  font-size: 3rem;
+  margin: 0 4rem;
+  color: #000000;
+}
+.links a:hover i {
+  color: #8f0707;
+}
+
 a:hover {
   text-decoration: underline;
 }
-.section {
+.education {
   margin-bottom: 2rem;
 }
+.experience {
+  margin-bottom: 2rem;
+}
+.internships {
+  margin-bottom: 2rem;
+}
+.skills {
+  margin-bottom: 2rem;
+}
+.certificates {
+  margin-bottom: 2rem;
+}
+.projects {
+  margin-bottom: 2rem;
+}
+
 img.profile {
   width: 150px;
   border-radius: 50%;
